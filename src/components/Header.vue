@@ -25,10 +25,11 @@
         />
 
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/videos">Video</a></li>
-          <li><a href="/sobre">Sobre</a></li>
-          <li><a href="/contato">Contato</a></li>
+          <li @click="openMenu"><router-link to="/">Home</router-link></li>
+          <li @click="openMenu"><router-link to="/videos">Videos</router-link></li>
+          <li @click="openMenu"><router-link to="/sobre">Sobre</router-link></li>
+          <li @click="openMenu"><router-link to="/contato">Contato</router-link></li>
+
         </ul>
       </div>
     </nav>

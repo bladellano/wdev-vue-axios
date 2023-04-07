@@ -1,4 +1,4 @@
-# fly.toml file generated for wdev-vue-axios on 2023-04-03T21:59:20-03:00
+# fly.toml file generated for wdev-vue-axios on 2023-04-06T10:21:32-03:00
 
 app = "wdev-vue-axios"
 kill_signal = "SIGINT"
